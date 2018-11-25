@@ -37,8 +37,9 @@ class getSupplyBtx
 	        }
         }        	
         //echo "Token Burn: ".$token_burn.PHP_EOL;
+	$before_locked = 5000;
         $total_supply = 21000000;
-        $remain_supply = $total_supply - $token_burn;  
+        $remain_supply = ($total_supply - $token_burn) + ($before_locked);  
         echo number_format($remain_supply, 7, '.', '');
     }
 
