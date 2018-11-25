@@ -1,0 +1,2 @@
+# btxsupply
+BitcoinX total supply
